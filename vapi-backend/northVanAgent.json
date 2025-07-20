@@ -1,0 +1,12 @@
+{
+  "name": "Appointment Reminder Assistant",
+  "voice": {
+    "provider": "deepgram",
+    "voiceId": "asteria"
+  },
+  "firstMessage": "Hello, this is a quick reminder from ClinicCall. You have an upcoming appointment. If you have questions or need to reschedule, please call the clinic. Thank you and have a great day!",
+  "model": {
+    "provider": "openai",
+    "model": "gpt-4"
+  }
+}
